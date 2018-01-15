@@ -59,7 +59,7 @@ class Song
   end
 
   def Song.create_from_filename(file)
-    
+
   end
 
   def Song.destroy_all

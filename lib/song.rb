@@ -59,7 +59,10 @@ class Song
   end
 
   def Song.create_from_filename(file)
-
+    if Song.new_from_filename(file)
+      mp3.save
+    end
+    
   end
 
   def Song.destroy_all

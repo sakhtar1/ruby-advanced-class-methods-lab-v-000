@@ -62,7 +62,7 @@ class Song
     if Song.new_from_filename(file)
       mp3.save
     end
-    
+
   end
 
   def Song.destroy_all
